@@ -3,4 +3,5 @@ wirte function which takes in an array and a value to be added. Without utilizin
 ## Whiteboard Process
 ![insert shift 02](cc02.png)
 ## Approach & Efficiency
-<!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
+find out the array index and divide it on 2 to have the middle index, then use parseIng method to convert the index if it's demical number to int.
+then use the splice method to add the value.
