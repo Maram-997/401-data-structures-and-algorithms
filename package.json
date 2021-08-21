@@ -2,7 +2,8 @@
   "name": "401-data-structures-and-algorithms",
   "version": "1.0.0",
   "description": "",
-  "main": "linkedList.js",
+  "main": "index.js",
+
   "scripts": {
     "test": "jest"
   },
