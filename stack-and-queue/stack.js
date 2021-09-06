@@ -17,7 +17,7 @@ class Stack {
     }
     pop(){
         if(!this.top){
-            return ' empty stacl'
+            return ' empty stack'
         }else{ 
             let temp = this.top;
         this.top = this.top.next
