@@ -8,16 +8,20 @@ class BinaryTree {
             this.right = null
     }
     
-    findMaximum() {
-        if (!this.root) {
-            return 'empty tree'
-        }
-        let currunt = this.root;
-
-        while (currunt.right !== null) {
-            currunt = currunt.right;
-        }
-        return currunt.data;
+     findMax(node)
+    {
+        if (node == null)
+            return 'empty tree';
+   
+        let res = node.root;
+        let lres = findMax(node.left);
+        let rres = findMax(node.right);
+   
+        if (lres > res)
+            res = lres;
+        if (rres > res)
+            res = rres;
+        return res;
     }
 
 }
